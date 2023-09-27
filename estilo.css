@@ -55,3 +55,16 @@ footer{
   clear: both;
   text-align: center;
 }
+
+@media all and (max-width: 768px) {
+  li {
+    visibility: hidden;
+  }
+  .item{
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+  }
+}
